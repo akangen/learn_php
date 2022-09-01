@@ -13,10 +13,10 @@
     
     // VARIABEL PHP
 
-    // $x = "Sekolah Coding";
+    $x = "PHP X JavaScript";
 
-    // echo "<h1>I LOVE CODING</h1>";
-    // echo "<h2>$x</h2>"; 
+    echo "<h1>I LOVE CODING</h1>";
+    echo "<h2>$x</h2>"; 
     // echo "I LOVE". $x ."<br>";
 
     // TIPE DATA STRING
@@ -32,7 +32,22 @@
     $angka = 1000;
     $angka2 = 500;
 
-    echo $angka + $angka2;
+    // OPERATOR ARIMATIK
+
+    // $angka2++;
+
+    // echo $angka + $angka2 * $angka;
+    // echo "<br>";
+    // echo $angka2;
+
+    // nama = nilai
+    $test = $angka + 100 + $angka2;
+    $angka2 *= $angka;
+
+    echo $test;
+    echo "<br>";
+    echo $angka2;
+    
     ?>
 
 </body>
