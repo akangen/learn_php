@@ -11,7 +11,7 @@
 
     <?php
     
-    // variabel pada PHP
+    // VARIABEL PHP
 
     // $x = "Sekolah Coding";
 
@@ -19,13 +19,20 @@
     // echo "<h2>$x</h2>"; 
     // echo "I LOVE". $x ."<br>";
 
-    // tipe data string
-    $ferdian = "profesional";
-    $adhi = "berkompeten";
-    $permana = "berintegritas";
+    // TIPE DATA STRING
 
-    echo "<h1>ferdian adhi permana \$ferdian</h1>";
+    // $ferdian = "profesional";
+    // $adhi = "berkompeten";
+    // $permana = "berintegritas";
 
+    // echo "<h1>ferdian adhi permana \$ferdian</h1>";
+
+    // TIPE DATA INTEGER
+    
+    $angka = 1000;
+    $angka2 = 500;
+
+    echo $angka + $angka2;
     ?>
 
 </body>
