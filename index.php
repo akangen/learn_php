@@ -19,10 +19,10 @@
     // echo "<h2>$x</h2>"; 
     // echo "I LOVE". $x ."<br>";
 
-    // tipe data
-    $ferdian = "keren";
-    $adhi = "kece";
-    $permana = "sekali";
+    // tipe data string
+    $ferdian = "profesional";
+    $adhi = "berkompeten";
+    $permana = "berintegritas";
 
     echo "<h1>ferdian adhi permana \$ferdian</h1>";
 
