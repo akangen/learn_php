@@ -9,11 +9,16 @@
 <body>
     
 
-    <?php 
-    echo "<h1>sekolah coding</h1>"; 
+    <?php
+    
+    // variabel pada PHP
+
+    $x = "Sekolah Coding";
+
+    echo "<h1>I LOVE CODING</h1>";
+    echo "<h2>$x</h2>"; 
+    echo "I LOVE". $x ."<br>";
     ?>
 
-    halo semua~
-    dasda
 </body>
 </html>
