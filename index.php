@@ -13,11 +13,19 @@
     
     // variabel pada PHP
 
-    $x = "Sekolah Coding";
+    // $x = "Sekolah Coding";
 
-    echo "<h1>I LOVE CODING</h1>";
-    echo "<h2>$x</h2>"; 
-    echo "I LOVE". $x ."<br>";
+    // echo "<h1>I LOVE CODING</h1>";
+    // echo "<h2>$x</h2>"; 
+    // echo "I LOVE". $x ."<br>";
+
+    // tipe data
+    $ferdian = "keren";
+    $adhi = "kece";
+    $permana = "sekali";
+
+    echo "<h1>ferdian adhi permana \$ferdian</h1>";
+
     ?>
 
 </body>
