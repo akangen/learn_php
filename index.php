@@ -21,9 +21,9 @@
 
     // TIPE DATA STRING
 
-    // $ferdian = "profesional";
-    // $adhi = "berkompeten";
-    // $permana = "berintegritas";
+    $ferdian = "profesional";
+    $adhi = "berkompeten";
+    $permana = "berintegritas";
 
     // echo "<h1>ferdian adhi permana \$ferdian</h1>";
 
@@ -35,15 +35,14 @@
 
     // OPERATOR ARIMATIK
 
-    // $angka2++;
+    $angka2++;
 
     // echo $angka + $angka2 * $angka;
     // echo "<br>";
     // echo $angka2;
 
-    // nama = nilai
-    // $test = $angka + 100 + $angka2;
-    // $angka2 *= $angka;
+    $test = $angka + 100 + $angka2;
+    $angka2 *= $angka;
 
     // echo $test;
     // echo "<br>";
@@ -51,9 +50,17 @@
 
     // MATH METHOD ( round [min, max] max min)
     // echo round($angka3);
-    echo "Angka hari ini adalah ". rand(5, 10);
-    echo "Angka hari ini adalah ". min($angka, $angka2, $angka3);
+    // echo "Angka hari ini adalah ". rand(5, 10);
+    // echo "Angka hari ini adalah ". min($angka, $angka2, $angka3);
     
+    // METODE STRING
+
+    $text = "Hai semuanya saya ferdian";
+    // echo strlen($text);
+    // echo str_word_count($text);
+    // echo str_replace('ferdian', 'malik', $text);
+    // echo str_repeat('hai ', 5);
+    echo str_repeat(str_replace( 'ferdian', 'malik', $text ), 10);
     ?>
 
 </body>
