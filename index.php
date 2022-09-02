@@ -31,6 +31,7 @@
     
     $angka = 1000;
     $angka2 = 500;
+    $angka3 = 2.55;
 
     // OPERATOR ARIMATIK
 
@@ -41,12 +42,17 @@
     // echo $angka2;
 
     // nama = nilai
-    $test = $angka + 100 + $angka2;
-    $angka2 *= $angka;
+    // $test = $angka + 100 + $angka2;
+    // $angka2 *= $angka;
 
-    echo $test;
-    echo "<br>";
-    echo $angka2;
+    // echo $test;
+    // echo "<br>";
+    // echo $angka2;
+
+    // MATH METHOD ( round [min, max] max min)
+    // echo round($angka3);
+    echo "Angka hari ini adalah ". rand(5, 10);
+    echo "Angka hari ini adalah ". min($angka, $angka2, $angka3);
     
     ?>
 
