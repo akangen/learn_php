@@ -11,7 +11,7 @@
 
     <?php
     
-    // VARIABEL PHP
+    // ANCHOR VARIABEL PHP
 
     $x = "PHP X JavaScript";
 
@@ -19,7 +19,7 @@
     echo "<h2>$x</h2>"; 
     // echo "I LOVE". $x ."<br>";
 
-    // TIPE DATA STRING
+    // NOTE TIPE DATA STRING
 
     $ferdian = "profesional";
     $adhi = "berkompeten";
@@ -27,13 +27,13 @@
 
     // echo "<h1>ferdian adhi permana \$ferdian</h1>";
 
-    // TIPE DATA INTEGER
+    // REVIEW TIPE DATA INTEGER
     
     $angka = 1000;
     $angka2 = 500;
     $angka3 = 2.55;
 
-    // OPERATOR ARIMATIK
+    // FIXME OPERATOR ARIMATIK
 
     $angka2++;
 
@@ -48,19 +48,24 @@
     // echo "<br>";
     // echo $angka2;
 
-    // MATH METHOD ( round [min, max] max min)
+    // STUB MATH METHOD ( round [min, max] max min)
+
     // echo round($angka3);
     // echo "Angka hari ini adalah ". rand(5, 10);
     // echo "Angka hari ini adalah ". min($angka, $angka2, $angka3);
     
-    // METODE STRING
+    // ANCHOR METODE STRING
 
     $text = "Hai semuanya saya ferdian";
     // echo strlen($text);
     // echo str_word_count($text);
     // echo str_replace('ferdian', 'malik', $text);
     // echo str_repeat('hai ', 5);
-    echo str_repeat(str_replace( 'ferdian', 'malik', $text ), 10);
+    // echo str_repeat(str_replace( 'ferdian', 'malik', $text ), 10);
+
+    // TODO ARRAY PHP
+
+    
     ?>
 
 </body>
