@@ -64,6 +64,8 @@
     // echo str_repeat(str_replace( 'ferdian', 'malik', $text ), 10);
 
     // TODO ARRAY PHP
+    
+
     ?>
 
 </body>
